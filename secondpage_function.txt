@@ -1,0 +1,46 @@
+void secondpage()
+{
+  cleardevice();
+  setbkcolor(GREEN);
+  setcolor(RED);
+  rectangle(5,5,632,470);
+  rectangle(8,8,629,467);
+  settextstyle(10,0,2);
+  outtextxy(55,10,"PLAYER 1");
+  rectangle(50,20,212,55);
+  settextstyle(10,0,1);
+  outtextxy(50,60,"ENTER YOUR NICK NAME : ");
+  rectangle(434,70,520,100);
+  settextstyle(2,0,5);
+  outtextxy(435,102,"(1-8 CHARACTERS)");
+  gotoxy(57,6);
+  scanf("%s",&player1);
+  settextstyle(10,0,1);
+  outtextxy(57,125,"            YOUR MARKER : ");
+  rectangle(430,135,480,165);
+  settextstyle(2,0,5);
+  outtextxy(440,167,"(X/O)");
+  gotoxy(57,10);
+  fflush(stdin);
+  printf("%c",mark1);
+  settextstyle(10,0,2);
+  outtextxy(55,190,"PLAYER 2");
+  rectangle(50,200,212,235);
+  settextstyle(10,0,1);
+  outtextxy(50,240,"ENTER YOUR NICK NAME : ");
+  rectangle(434,250,520,280);
+  settextstyle(2,0,5);
+  outtextxy(435,282,"(1-8 CHARACTERS)");
+  settextstyle(10,0,1);
+  gotoxy(57,17);
+  scanf("%s",&player2);
+  outtextxy(65,300,"           YOUR MARKER : ");
+  rectangle(430,310,480,340);
+  settextstyle(2,0,5);
+  outtextxy(440,342,"(X/O)");
+  settextstyle(10,0,2);
+  gotoxy(57,21);
+  printf("%c",mark2);
+  outtextxy(80,400,"PRESS ENTER TO NEXT STEP");
+  getch();
+}
