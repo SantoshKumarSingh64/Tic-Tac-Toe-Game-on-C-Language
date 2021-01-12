@@ -1,2 +1,4 @@
-# Tic-Tac-Toe-Game-on-C-Language
-Tic-Tac-Toe or Noughts and Crosses or Xs and Os is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
+<h1>Tic Tac Toe Game on C</h1>
+<p><br>
+Tic Tac Toe Board-(Noughts and Crosses or X’s and O’s).It is two players, X and O, game who take turns making the spaces in a 3x3 grid. The player who succeeds in placing three respective marks in horizontal, vertical, or diagonal row win the game<br>
+</p>
